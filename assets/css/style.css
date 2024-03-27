@@ -2254,3 +2254,10 @@ footer .credits {
   font-optical-sizing: auto;
   font-weight: 900;
 }
+
+@media screen and (max-width: 600px) {
+    .swiper.carousel-item-a {
+        background-size: auto;
+        height: 50vh;
+    }
+}
